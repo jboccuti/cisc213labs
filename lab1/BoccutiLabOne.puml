@@ -1,0 +1,19 @@
+@startuml BoccutiLabOne
+skinparam classAttributeIconSize 0
+class BoccutiLabOne {
+    {static} + TABLE_BORDER : String
+    {static} + N_LINE : String
+    {static} + OPERATIONS : String[]
+    -- <b>Main Method</b> --
+    {static} + main(args : String[])
+    -- <b>Helper Functions</b> --
+    {static} + createTruthTableRow(p : boolean, q : boolean, op : String) : String
+    {static} + boolToStr(b : boolean) : String
+    -- <b>Logical Operations</b> --
+    {static} + logicalImplication(p : boolean, q : boolean) : boolean
+    {static} + logicalEquality(p : boolean, q : boolean) : boolean
+    {static} + exclusiveDisjunction(p : boolean, q : boolean) : boolean
+    {static} + logicalNand(p : boolean, q : boolean) : boolean
+    {static} + logicalNnor(p : boolean, q : boolean) : boolean
+}
+@enduml
