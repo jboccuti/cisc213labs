@@ -4,12 +4,9 @@ package dev.boccuti.www.cisc213.lab1;
  * Implementation of Lab #1 for CISC 213 that completes examples and builds
  * truth tables for 5 Boolean Operations: Logical Implication, Logical Equality,
  * Exclusive Disjunction, Logical NAND, and Logical NNOR. Purposefully avoids
- * using
- * any very clever shortcuts for the operations for the sake of academic
- * clarity.
- * For the same reason, explicit equality checks of booleans are used instead of
- * things
- * like !b for false or similar.
+ * using any very clever shortcuts for the operations for the sake of academic
+ * clarity. For the same reason, explicit equality checks of booleans are used
+ * instead of things like !b for false or similar.
  * 
  * @author Jason Boccuti | jason@boccuti.dev
  */

@@ -1,0 +1,19 @@
+@startuml BoccutiLabTwo
+skinparam classAttributeIconSize 0
+class BoccutiLabTwo {
+    {static} - WORD_COUNT : int
+    {static} - FAIL_SEARCH_STRING : String
+    {static} - wordArray : String[]
+    {static} - searchTerm : String
+    {static} - middle : int
+    {static} - termIndex : int
+    -- <b>Main Method</b> --
+    {static} + main(args : String[])
+    -- <b>Helper Functions</b> --
+    {static} - conductSearch(searchTerm : String)
+    {static} - selectRandomWord()
+    {static} - buildWords()
+    -- <b>Binary Search</b> --
+    {static} - binarySearch(left : int, right : int, term : String) : boolean
+}
+@enduml
