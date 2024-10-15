@@ -1,0 +1,28 @@
+@startuml BoccutiLabThree
+skinparam classAttributeIconSize 0
+class BoccutiLabThree {
+    {static} + main(args : String[])
+}
+class JBNode {
+    + data : T
+    + next : JBNode<T>
+    + prev : JBNode<T>
+    + JBNode(data : T)
+}
+class JBDeque {
+    - front : JBNode<T>
+    - rear : JBNode<T>
+    - size : int
+    + JBDeque()
+    -- <b>Deque Operations</b> --
+    + addFront(key : T)
+    + addRear(key : T)
+    + peekFront()
+    + peekRear()
+    + pollFront()
+    + pollRear()
+    + isEmpty() : boolean
+    + getSize() : int
+    + buildDequeString() : String
+}
+@enduml
