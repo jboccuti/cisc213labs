@@ -9,6 +9,6 @@ A repository for all the relevant coursework and labs completed for CISC 213.
 
 <img src="https://github.com/jboccuti/cisc213/blob/main/resources/binarySearchOutput.png">
 
-[Lab 3: Double Ended Queue (Deque) - Source Code](https://github.com/jboccuti/cisc213/blob/main/lab2/BoccutiLabThree.java)
+[Lab 3: Double Ended Queue (Deque) - Source Code](https://github.com/jboccuti/cisc213/blob/main/lab3/BoccutiLabThree.java)
 
 <img src="https://github.com/jboccuti/cisc213/blob/main/resources/dequeOutput.png">
