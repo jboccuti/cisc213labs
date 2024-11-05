@@ -1,0 +1,28 @@
+@startuml
+skinparam classAttributeIconSize 0
+AbstractToy <|-- TableTopGame
+AbstractToy <|-- BuildableToy
+AbstractToy <|-- VideoGame
+
+abstract class AbstractToy {
+    - name : String
+    - price : int
+    - minAge : int
+    + getName() : String
+    + getPriceInDollars() : String
+    + getMinAge() : String
+    + {abstract} checkSaleConditions()
+}
+class VideoGame {
+    - systemRequirements : String
+    + getSystemsReqs() : String
+}
+class TableTopGame {
+    - numPlayers : int
+    + getNumPlayersRange() : String
+}
+class BuildableToy {
+    - numPieces : String
+    + getNumPieces() : String
+}
+@enduml
